@@ -1,0 +1,11 @@
+﻿namespace ApiCrud.Models.DTOs
+{
+    public class EditEmployeeDTO
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public decimal Salary { get; set; }
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+    }
+}
